@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import "./App.css";
 
-const apiURL = "/api/message";
+const apiURL = "http://65.0.138.160:8080/api/message";
 
 function App() {
   const [message, setMessage] = useState(0);
