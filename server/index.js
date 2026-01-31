@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(cors())
 
 app.get('/api/message', (req, res) => {
-    res.status(200).json({message:"hello from chai aur code"})
+    res.status(200).json({message:"Running this full stack app with docker compose"})
 })
 
 const PORT = 4000
